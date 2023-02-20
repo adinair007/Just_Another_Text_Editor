@@ -52,7 +52,7 @@ export const getDb = async () => {
 
   //--Getting results--
   const result = await request.value;
-  console.log("result.value", result);
+  console.log("result.value" + result);
   return result;
 };
 
